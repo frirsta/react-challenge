@@ -1,11 +1,11 @@
-import css from './components/css/NavBarForm.module.css';
+import css from './components/css/Content.module.css'
 import Sidebar from './components/Sidebar';
-import NavBarForm from './components/NavBarForm';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div className={css.NavBar}>
-   <NavBarForm />
+    <div>
+   <Content />
     </div>
   );
 }
