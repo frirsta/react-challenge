@@ -1,11 +1,11 @@
 import css from './components/css/NavBarForm.module.css';
 import Sidebar from './components/Sidebar';
-import NavbarForm from './components/NavbarForm';
+import NavBarForm from './components/NavBarForm';
 
 function App() {
   return (
     <div className={css.NavBar}>
-   <NavbarForm />
+   <NavBarForm />
     </div>
   );
 }
