@@ -1,11 +1,11 @@
 import css from './components/css/Content.module.css'
 import Sidebar from './components/Sidebar';
-import Content from './components/Content';
+import ContentHooks from './components/ContentHooks';
 
 function App() {
   return (
     <div>
-   <Content />
+   <ContentHooks />
     </div>
   );
 }
